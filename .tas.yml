@@ -1,0 +1,16 @@
+---
+framework: mocha
+preRun:
+  command:
+    - npm i
+preMerge:
+  pattern:
+    - "./test/**/*.js"
+postMerge:
+  pattern:
+    - "./test/**/*.js"
+postRun:
+  command:
+    - node --version
+configFile: mocha.opts
+version: 1.0
