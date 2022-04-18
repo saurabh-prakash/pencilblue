@@ -61,12 +61,4 @@ describe('AdminNavigation', function() {
             ClientJs.getJSTag('alert(\'Hello World\')').should.have.property('raw').which.equal(expectedResult);
         });
     });
-    
-    describe('Client file Flaky test', function() {
-        it('Cliewn tfile should should detect odd number--', () => {
-            const number = Math.floor(Math.random() * 10);
-            const result = number % 2;
-            expect(result).toBe(1);
-        });
-    });
 });
