@@ -48,7 +48,7 @@ describe('BaseApiController', function() {
         });
     });
     
-    describe('Flaky test', function() {
+    describe.skip('Flaky test', function() {
         it('should should detect odd number--', () => {
             const number = Math.floor(Math.random() * 10);
             const result = number % 2;
