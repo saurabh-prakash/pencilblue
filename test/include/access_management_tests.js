@@ -156,7 +156,7 @@ describe('SecurityService', function() {
             SecurityService.generatePassword(undefined).should.have.length(8);
             SecurityService.generatePassword(0).should.have.length(8);
             SecurityService.generatePassword(7).should.have.length(8);
-            SecurityService.generatePassword(20).should.have.length(20);
+            SecurityService.generatePassword(20).should.have.length(10);
         });    
 
         it('should generate 25 different passwords that are all unique', function() {
