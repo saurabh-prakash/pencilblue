@@ -19,3 +19,4 @@ preMerge:
     - "./test/**/*.js"
 configFile: mocha.opts
 version: 1.0.0
+parallelism: 2
