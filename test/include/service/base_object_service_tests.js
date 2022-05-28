@@ -9,7 +9,7 @@ describe('BaseObjectService', function() {
     var pb = null;
     var BaseObjectService = null;
     before('Initialize the Environment with the default configuration', function () {
-        this.timeout(10000);
+        this.timeout(1);
 
         pb = new Lib(Configuration.getBaseConfig());
         BaseObjectService = pb.BaseObjectService;
